@@ -135,7 +135,9 @@ left: -30px; */
 }
 
 .home .home-content .text-3 span {
-  color: #fee715ff;
+  color: white;
+  animation: color infinite 2s;
+
 }
 
 .home .home-content .resume-btn button {
@@ -260,13 +262,13 @@ section {
 
 .skills .title::before {
   content: "";
-  position: absolute;
-  width: 288px;
-  height: 3px;
-  bottom: 20px;
-  left: 50%;
-  background-color: white;
-  transform: translateX(-143px);
+position: absolute;
+width: 294px;
+height: 3px;
+bottom: 16px;
+left: 50%;
+background-color: white;
+transform: translateX(-143px);
 }
 
 .skills .skill-content .card img {
@@ -339,14 +341,19 @@ section {
   transition: background-color 0.3s ease-in;
 }
 
-/* .card1:hover,
+.card6 img{
+  height: 120px;
+width: 200px;
+
+}
+.card1:hover,
 .card2:hover,
 .card3:hover,
 .card4:hover,
 .card5:hover,
 .card6:hover {
-  background-color: darkgray;
-} */
+  cursor: pointer;
+}
 
 /* contact section styling  */
 
@@ -449,6 +456,23 @@ section {
 
 .app a i:hover{
     color: white;
+}
+
+
+
+@keyframes color {
+  0% {
+    color:rgb(139, 127, 15);
+    
+  }
+  50% {
+    color:rgb(255, 235, 57);
+    
+  }
+  100% {
+    color:rgb(139, 127, 15);
+    
+  }
 }
 
 /* responsive styling start */
@@ -554,16 +578,40 @@ section {
   }
 
   .home .home-content .text-3 {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 @media (max-width: 553px) {
   .home .home-content .text-2 {
-    font-size: 45px;
-    font-weight: 400;
+    font-size: 50px;
+    font-weight: 500;
   }
 
   .home .home-content .text-3 {
-    font-size: 23px;
+    font-size: 33px;
   }
+
+  .app{
+    margin: 22px;
+font-size: 43px;
+color: #fee715ff;
+font-size: 43px;
+  }
+
+  .card{
+    width: 340px;
+  }
+
+  .contact-content{
+    margin:20px;
+  }
+
+  .about .about-content .column {
+    width: 100%;
+}
+
+
+
+
+
 }

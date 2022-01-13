@@ -57,10 +57,10 @@ $(document).ready(function(){
     
   // })
   $(".card1").mouseenter(function(){
-    $(".card1").css("background","#fee715ff");
+    $(".card1").css("background","#888888");
     $(".card1 .box-text").css("color","black");
-    $(".html").css("background","black");
-    $(".card1 .level").css("background","white");
+    $(".html").css("background","chartreuse");
+    $(".card1 .level").css("background","Black");
     // document.getElementsByClassName("card1").style.background ="#fee715ff";
     $(".html").css("width","95%");
     $("#percent1").css("display","flex");
@@ -78,10 +78,10 @@ $(document).ready(function(){
   })
 
   $(".card2").mouseenter(function(){
-    $(".card2").css("background","#fee715ff");
+    $(".card2").css("background","#888888");
     $(".card2 .box-text").css("color","black");
-    $(".css").css("background","black");
-    $(".card2 .level").css("background","white");
+    $(".css").css("background","chartreuse");
+    $(".card2 .level").css("background","black");
     $(".css").css("width","90%");
     $("#percent2").css("display","flex");
     animateValue("percent2",0,90,50);
@@ -97,10 +97,10 @@ $(document).ready(function(){
   })
 
   $(".card3").mouseenter(function(){
-    $(".card3").css("background","#fee715ff");
+    $(".card3").css("background","#888888");
     $(".card3 .box-text").css("color","black");
-    $(".bootstrap").css("background","black");
-    $(".card3 .level").css("background","white");
+    $(".bootstrap").css("background","chartreuse");
+    $(".card3 .level").css("background","black");
     $(".bootstrap").css("width","80%");
     $("#percent3").css("display","flex");
     animateValue("percent3",0,80,50);
@@ -116,10 +116,10 @@ $(document).ready(function(){
   })
 
   $(".card4").mouseenter(function(){
-    $(".card4").css("background","#fee715ff");
+    $(".card4").css("background","#888888");
     $(".card4 .box-text").css("color","black");
-    $(".js").css("background","black");
-    $(".card4 .level").css("background","white");
+    $(".js").css("background","chartreuse");
+    $(".card4 .level").css("background","black");
     $(".js").css("width","85%");
     $("#percent4").css("display","flex");
     animateValue("percent4",0,85,50);
@@ -134,10 +134,10 @@ $(document).ready(function(){
   })
 
   $(".card5").mouseenter(function(){
-    $(".card5").css("background","#fee715ff");
+    $(".card5").css("background","#888888");
     $(".card5 .box-text").css("color","black");
-    $(".jquery").css("background","black");
-    $(".card5 .level").css("background","white");
+    $(".jquery").css("background","chartreuse");
+    $(".card5 .level").css("background","black");
     $(".jquery").css("width","80%");
     $("#percent5").css("display","flex");
     
@@ -153,13 +153,13 @@ $(document).ready(function(){
   })
 
   $(".card6").mouseenter(function(){
-    $(".card6").css("background","#fee715ff");
+    $(".card6").css("background","#888888");
     $(".card6 .box-text").css("color","black");
-    $(".node").css("background","black");
-    $(".card6 .level").css("background","white");
+    $(".node").css("background","chartreuse");
+    $(".card6 .level").css("background","black");
     $(".node").css("width","70%");
     $("#percent6").css("display","flex");
-    animateValue("percent6",0,70,50);
+    animateValue("percent6",0,90,50);
   })
   $(".card6").mouseleave(function(){
     $(".card6").css("background","#444444");
