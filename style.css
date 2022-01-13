@@ -136,7 +136,7 @@ left: -30px; */
 
 .home .home-content .text-3 span {
   color: white;
-  animation: color infinite 2s;
+  animation: color infinite 2s ease-out;
 
 }
 
